@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>aw</groupId>
+  <artifactId>asgn3rohank</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>asgn3rohank Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>4.0.0</version>
+    <scope>provided</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/jsp-api -->
+<dependency>
+    <groupId>javax.servlet.jsp</groupId>
+    <artifactId>jsp-api</artifactId>
+    <version>2.2</version>
+    <scope>provided</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/de.l3s.boilerpipe/boilerpipe -->
+<dependency>
+    <groupId>de.l3s.boilerpipe</groupId>
+    <artifactId>boilerpipe</artifactId>
+    <version>1.1.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/xerces/xerces -->
+<dependency>
+    <groupId>xerces</groupId>
+    <artifactId>xerces</artifactId>
+    <version>2.4.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/net.sourceforge.nekohtml/nekohtml -->
+<dependency>
+    <groupId>net.sourceforge.nekohtml</groupId>
+    <artifactId>nekohtml</artifactId>
+    <version>1.9.17</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.10.3</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-core</artifactId>
+    <version>7.1.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-analyzers-common</artifactId>
+    <version>7.1.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-queryparser</artifactId>
+    <version>7.1.0</version>
+</dependency>
+
+
+
+
+    </dependencies>
+  <build>
+    <finalName>asgn3rohank</finalName>
+  </build>
+</project>
